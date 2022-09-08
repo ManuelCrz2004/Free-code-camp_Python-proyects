@@ -44,6 +44,7 @@ def computador_adivina(x):
             intentos +=1
         elif respuesta == 0:
             print(f"Felicidades! La computadora lo resolvio en un total de {intentos} intentos")
+            resultado = True
         else:
             print("No se entendio tu petición")
             pass
